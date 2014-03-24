@@ -72,6 +72,8 @@ class FeatureContext extends MinkContext
     }
 
     /**
+     * http://blog.richardknop.com/2013/04/select-a-radio-button-with-mink-behat/
+     * 
      * @WHEN /^I check the "([^"]*)" radio button$/
      */
     public function iCheckTheRadioButton($labelText)
