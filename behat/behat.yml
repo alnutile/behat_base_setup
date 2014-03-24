@@ -1,0 +1,13 @@
+default:
+  paths:
+    features:  /behat/features
+    bootstrap: /behat/features/bootstrap/
+  formatter:
+    name: pretty
+  extensions:
+    Behat\MinkExtension\Extension:
+      default_session: selenium2
+      goutte: null
+      selenium2: null
+      base_url: 'https://localhost:8000/'
+      browser_name: safari
